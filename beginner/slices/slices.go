@@ -50,4 +50,8 @@ func main() {
 	fmt.Println("length of slice is", len(slice))
 	//length is how big the array is!
 
+	//slice operator
+	var nums = []int{1,2,3}
+	fmt.Println(nums[0:2])
+
 }
