@@ -9,18 +9,21 @@ func main(){
 	// maps in golang
 	// var maps map[int]string
 	// maps := make(map[int]string)
+	//A map in Go stores data in key-value pairs, similar to a dictionary in Python.
 	var my_map = map[int]string{
 		1 : "hey",
 		2: "friend",
 	}
+	//This adds a new entry to map
 	my_map[3] = "bro"
 
 	fmt.Println(my_map)
 
 	// delete(maps,2)
+	//Go would remove the entry whose key is 2
 
 	fmt.Println(my_map[2], my_map[1])
-
+//to clear whhole map
 	// clear(maps)
 	// fmt.Println(maps)
 
@@ -50,7 +53,7 @@ func main(){
 	var marks = make(map[string]int)
 	fmt.Println(marks)
 
-	marks["akriti"] = 100
+	marks["kaim"] = 100
 
 	fmt.Println(marks)
 
