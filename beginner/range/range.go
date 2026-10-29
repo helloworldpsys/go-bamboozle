@@ -13,4 +13,12 @@ func main(){
 		sum = sum +num
 	}
 	fmt.Println(sum)
-}
+
+	m := map[string]string{
+		"fisrt name": "kaim",
+		"last name": "kaimx"}
+		for key , value := range m {
+			fmt.Println(key, value)
+			}
+			fo
+} 
